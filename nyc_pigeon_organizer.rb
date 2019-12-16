@@ -2,7 +2,7 @@ require "pry"
 def nyc_pigeon_organizer(data)
   # write your code here!
   name = []
-  my-data[:gender].keys.each{|e| data[:gender][e].each{|n| name << n}}
+  data[:gender].keys.each{|e| data[:gender][e].each{|n| name << n}}
 
   list = []
   data.keys.each{|e| data[e].keys.each{|k| list << [k.to_s , data[e][k]]}}
